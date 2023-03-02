@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&family=Noto+Sans+TC&family=Press+Start+2P&family=Roboto&display=swap');
+
+html {
+    --scrollbarBG: whitesmoke;
+    --thumbBG: #7f7f7f;
+  }
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+  body {
+    /* max-width: 1800px; */
+    margin: 0 auto !important; 
+    font-family: 'Roboto', sans-serif;
+    background-color: #7f7f7f;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 2.5px solid var(--scrollbarBG);
+  }
+  
+  ::selection {
+    background-color: #3952F7;
+    color: whitesmoke;
+  }
+
+/* Nav Styles */
+
+.nav-body-div {
+    width: 100%;
+    height: 5rem;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #7f7f7f;
+}
+
+.nav-links {
+    font-size: 18px;
+    display: inline;
+    padding: .5rem 1em;
+    color: whitesmoke;
+    border-bottom: 1px solid black;
+    transition: all .5s ease-in-out;
+    margin-right: 6px;
+}
+
+.nav-links:hover {
+    color: #7f7f7f;
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+.nav-links:active {
+    color: #0827F5;
+}
+
+#on {
+    border-bottom: 1px solid whitesmoke;
+}
+
+
+/* Main Styles */
+
+.Main-body-div {
+    margin-top: 12rem;
+    height: 22rem;
+    background-color: #7f7f7f;
+}
+
+.h1-div {
+    width: 10rem;
+    margin-left: 5rem;
+    cursor: default;
+}
+
+  .main-span {
+    color: black;
+  }
+
+h1 {   
+    margin: 0;
+    font-size: 76px;
+    font-weight: lighter;
+    border-left: 4px solid #101820;
+    /* border-radius: 12px; */
+    padding-left: 1rem;
+    color: whitesmoke;
+  }
+
+  /* Section Styles */
+
+  .section-body-div {
+    width: 100%;
+    height: 50rem;
+    background-color: black;
+  }
+
+  .section-list {
+    margin: 0 5rem;
+    color: whitesmoke;
+    font-size: 56px;
+    text-decoration: none;
+    padding: 0;
+  }
+
+  .section-list-item {
+    text-decoration: none;
+    padding-top: 4rem;
+    margin: 0;
+    transition: all .5s ease-in-out;
+    width: 300px;
+    color: whitesmoke;
+  }
+  .section-list-item:hover {
+    color: whitesmoke;
+    transition: all .25s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .section-link {
+    text-decoration: none;
+  }
+  .section-link-dot {
+    color: whitesmoke;
+  }
+
+  .section-list-item  {
+    color: #0827F5;
+    transition: all .5s ease-in-out;
+  }
+  .section-list-item a:hover {
+    color: whitesmoke;
+    transition: all .25s ease-in-out;
+  }
+  .section-list-item a:active {
+    color: #7f7f7f;
+    transition-delay: 5s;
+  }
+
+  /* Footer Styles */
+
+  .footer-body-div {
+    width: 100%;
+    height: 18rem;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+
+  /* Colors Styles */
+
+  .Colors-content {
+    width: 85%;
+    height: 60rem;
+    margin: 10rem auto;
+    border-radius: 8px;
+    background-color: whitesmoke;
+  }
+
+  
+  /* extra Styles */
+
+  .div-line {
+    height: 1px;
+    width: 90%;
+    margin: 4rem;
+    background-color: black;
+  }
+
+  /* ProgressBar Styles */
+
+  .progressbar-body-div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .progress-text {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 6px;
+  }
+
+  .progress{
+    margin: 0 auto;
+    width: 600px;
+}
+.progress .color{
+    background-color: black;
+    height: 6px;
+    border-radius: 2px;
+    animation: progres 4s infinite linear;   
+    margin: 0; 
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+    25%{
+        width: 35%;
+    }
+    50%{
+        width: 60%;
+    }
+    75%{
+        width: 75%;
+    }
+    100%{
+        width: 100%;
+    }
+};
+
