@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-function Nav() {
+function Componentnav() {
 
         const [currentPage, setCurrentPage] = useState("");
 
@@ -9,30 +9,33 @@ function Nav() {
             setCurrentPage(window.location.pathname);
           }, []);
 
-          window.onscroll = function () {
-            scrollFunction();
-          };
+          // window.onscroll = function () {
+          //   scrollFunction();
+          // };
           
-          function scrollFunction() {
-            if (
-              document.body.scrollTop > 600 ||
-              document.documentElement.scrollTop > 600
-            ) {
-              document.getElementById("navbar").style.top = "-115px";
-            } else {
-              document.getElementById("navbar").style.top = "0";
-            }
-          }
+          // function scrollFunction() {
+          //   if (
+          //     document.body.scrollTop > 300 ||
+          //     document.documentElement.scrollTop > 300
+          //   ) {
+          //     document.getElementById("comp-navbar").style.top = "0";
+          //   } else {
+          //     document.getElementById("comp-navbar").style.top = "-120px";
+          //   }
+          // }
 
     return (
-        <div className="nav-body-div" id="navbar" >
+        <>
+        <div className="nav-body-div" id="comp-navbar" >
+
+                <Link to="/" className="section-link"  ><p className="nav-links" > # </p></Link>
 
                 <Link to="/Colors" className="section-link"  ><p className="nav-links" id={currentPage === "/Colors" ? "on" : ""} >colors.</p></Link>
 
                 <Link to="/Components" className="section-link"  ><p className="nav-links" id={currentPage === "/Components" ? "on" : ""} >components.</p></Link>
 
                 <Link to="/Images" className="section-link"  ><p className="nav-links" id={currentPage === "/Images" ? "on" : ""} >images.</p></Link>
-
+                
                 <Link to="/Fonts" className="section-link"  ><p className="nav-links" id={currentPage === "/Fonts" ? "on" : ""} >fonts.</p></Link>
 
                 <Link to="/Forms" className="section-link"  ><p className="nav-links" id={currentPage === "/Forms" ? "on" : ""} >forms.</p></Link>
@@ -40,7 +43,9 @@ function Nav() {
                 <Link to="/Typography" className="section-link"  ><p className="nav-links" id={currentPage === "/Typography" ? "on" : ""}  >typography.</p></Link>
 
         </div>
+        
+        </>
     )
 }
 
-export default Nav
+export default Componentnav

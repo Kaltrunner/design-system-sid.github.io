@@ -13,6 +13,8 @@ function Section() {
 
             <Link to="/Images" className="section-link" ><p className="section-list-item" >images<span className="section-link-dot" >.</span></p></Link>
 
+            <Link to="/Fonts" className="section-link" ><p className="section-list-item" >fonts<span className="section-link-dot" >.</span></p></Link>
+
             <Link to="/Forms" className="section-link" ><p className="section-list-item" >forms<span className="section-link-dot" >.</span></p></Link>
 
             <Link to="/Typography" className="section-link" ><p className="section-list-item" >typography<span className="section-link-dot" >.</span></p></Link>
