@@ -36,7 +36,7 @@ function Footer() {
 
           <p className="footer-text" ><a className="tag" target="_blank" rel="noreferrer" href="https://github.com/Kaltrunner" >GitHub.</a></p>
 
-          <p className="footer-text" ><a className="tag" target="_blank" rel="noreferrer" href="https://medium.com/@erikrussells">Blog.</a></p>
+          {/* <p className="footer-text" ><a className="tag" target="_blank" rel="noreferrer" href="https://medium.com/@erikrussells">Blog.</a></p> */}
 
           <p className="footer-text" ><a className="tag" target="_blank" rel="noreferrer" href="https://www.erikmrussell.com">Portfolio.</a></p>
 
@@ -46,7 +46,7 @@ function Footer() {
           
       </div>
       <div className="info-div" >
-        <p>Built & designed by: Erik Russell.</p>
+        <p>Built & designed by: Erik Russell</p>
     
         <p>© 2023 Erik Russell<br/>all rights resurved.</p>
         </div>
