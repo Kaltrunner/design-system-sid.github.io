@@ -33,7 +33,7 @@ function Nav() {
 
                 <Link to="/Images" className="section-link"  ><p className="nav-links" id={currentPage === "/Images" ? "on" : ""} >images.</p></Link>
 
-                <Link to="/Fonts" className="section-link"  ><p className="nav-links" id={currentPage === "/Fonts" ? "on" : ""} >fonts.</p></Link>
+                {/* <Link to="/Fonts" className="section-link"  ><p className="nav-links" id={currentPage === "/Fonts" ? "on" : ""} >fonts.</p></Link> */}
 
                 <Link to="/Forms" className="section-link"  ><p className="nav-links" id={currentPage === "/Forms" ? "on" : ""} >forms.</p></Link>
 

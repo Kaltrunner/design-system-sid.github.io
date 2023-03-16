@@ -8,7 +8,7 @@ import Componentnav from "./Component-nav";
 import Images from "./Images";
 import Colors from "./Colors";
 import Components from "./Components";
-import Fonts from "./Fonts";
+// import Fonts from "./Fonts";
 import Forms from "./Forms"
 import Typography from "./Typography";
 import ProgressBar from "./ProgressBar";
@@ -28,7 +28,7 @@ function App() {
       <Route path="Colors" element={<Colors />} />
       <Route path="/Components" element={<Components />} />
       <Route path="/Images" element={<Images />} />
-      <Route path="/Fonts" element={<Fonts />} />
+      {/* <Route path="/Fonts" element={<Fonts />} /> */}
       <Route path="/Forms" element={<Forms />} />
       <Route path="/Typography" element={<Typography />} />
       <Route path="/ProgressBar" element={<ProgressBar />} />

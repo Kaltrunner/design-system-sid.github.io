@@ -99,7 +99,7 @@ html {
 
 
   .header-text  {
-    font-size: 118px;
+    font-size: 128px;
     line-height: 148px;
     margin: 0;
     padding: 0;
@@ -115,7 +115,7 @@ html {
 
   .section-body-div {
     width: 100%;
-    height: 70rem;
+    height: 60rem;
     background-color: black;
     display: flex;
     flex-direction: row;
@@ -240,7 +240,7 @@ html {
   }
 
   .comp-header-text {
-    font-size: 118px;
+    font-size: 128px;
     font-weight: 600;
     padding: 0;
     margin-left: 5rem;
@@ -248,8 +248,9 @@ html {
   }
 
   .comp-content {
-    height: 60rem;
+    /* height: 60rem; */
     margin: 5rem;
+    padding: 5rem 0;
     border-radius: 28px;
     background-color: whitesmoke;
   }
@@ -257,6 +258,147 @@ html {
   /* Colors Styles */
 
   
+/* Componenets Styles */
+
+/* Images Styles */
+
+/* Forms Styles */
+
+/* Typography Styles */
+
+.text-info-div {
+ display: flex;
+  margin-bottom: 4rem;
+}
+
+.font-card-info {
+  font-size: 48px;
+  margin-left: 2rem;
+}
+
+.font-card {
+  width: 18rem;
+  height: 28rem;
+  background-color: #929292;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  box-shadow: 0 0 8px 2px #929292;
+}
+
+.font-card-letter {
+  font-size: 282px;
+}
+.font-card-letter-low {
+  font-size: 118px;
+}
+
+.text-div {
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.text-h {
+  padding: 0;
+  margin: 0;
+}
+
+.text-text {
+  margin: 0;
+  padding: 0;
+}
+
+.h1-span {
+  font-weight: 600;
+  color: #0827F5;
+}
+
+#text-h1 {
+  font-size: 128px;
+  line-height: 148px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+#text-h2 {
+  font-size: 128px;
+  line-height: 148px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+#text-h3 {
+  font-size: 96px;
+  line-height: 106px;
+  padding: 0;
+  margin: 0;
+}
+
+#text-h4 {
+  font-size: 80px;
+  line-height: 86px;
+  padding: 0;
+  margin: 0;
+}
+
+#text-h5 {
+  font-size: 64px;
+  line-height: 68px;
+  padding: 0;
+  margin: 0;
+}
+
+#text-h6 {
+  font-size: 28px;
+  line-height:28px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+#text-p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.par-div {
+  margin: 2rem;
+}
+
+#text100 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+#text75 {
+  width: 75%;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+#text50 {
+  width: 50%;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+#text25 {
+  width: 25%;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
 
   
   /* extra Styles */
