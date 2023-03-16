@@ -13,7 +13,7 @@ function Typography() {
         </div>
         <div className="comp-content">
           <div className="text-info-div">
-            <p className="font-card-info" >Font type: <br/>Noto Sans</p>
+            <p className="font-card-info" >Fonts used / <br/> <span className="font-card-info-span" >Noto Sans: </span><span className="font-card-info-letter-span" > Aa Bb Cc </span></p>
             {/* <div className="font-card" >
             <p className="font-card-letter" >A</p><p className="font-card-letter-low" >a</p>
             </div>
@@ -23,7 +23,9 @@ function Typography() {
             <div className="font-card" >
             <p className="font-card-letter" >C</p><p className="font-card-letter-low" >c</p>
             </div> */}
+            
           </div>
+          <div className="div-line"></div>
           <dev text-body-div>
             <div className="text-div">
               <p>H1 / <span className="h1-span" >Header</span> - weight 600</p>
@@ -75,25 +77,25 @@ function Typography() {
             </div>
 
             <div className="par-div" >
-                <p className="h1-span" >Paragraph - 100%</p>
+                <p className="p-span" >Paragraph - 100%</p>
                 <p className="par-text" id="text100" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Upang madagdagan ang halaga, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
             </div>
 
             <div className="par-div" >
-                <p className="h1-span" >Paragraph - 75%</p>
+                <p className="p-span" >Paragraph - 75%</p>
                 <p className="par-text" id="text75" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Upang madagdagan ang halaga, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
             </div>
 
             <div className="par-div" >
-                <p className="h1-span" >Paragraph - 50%</p>
+                <p className="p-span" >Paragraph - 50%</p>
                 <p className="par-text" id="text50" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Upang madagdagan ang halaga, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
             </div>
 
             <div className="par-div" >
-                <p className="h1-span" >Paragraph - 25%</p>
+                <p className="p-span" >Paragraph - 25%</p>
                 <p className="par-text" id="text25" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Upang madagdagan ang halaga, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
             </div>

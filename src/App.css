@@ -80,7 +80,7 @@ html {
 
 .Main-body-div {
     margin-top: 6rem;
-    height: 42rem;
+    height: 48rem;
     background-color: #929292;
     display: flex;
     align-items: center;
@@ -268,12 +268,32 @@ html {
 
 .text-info-div {
  display: flex;
+ font-size: 80px;
+  line-height: 86px;
+  padding: 0;
+  margin: 0;
   margin-bottom: 4rem;
 }
 
 .font-card-info {
   font-size: 48px;
   margin-left: 2rem;
+}
+
+.font-card-info-span {
+  font-size: 28px;
+  line-height:28px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.font-card-info-letter-span {
+  font-size: 128px;
+  line-height: 148px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
 }
 
 .font-card {
@@ -311,6 +331,11 @@ html {
 }
 
 .h1-span {
+  font-weight: 600;
+  color: #0827F5;
+}
+
+.p-span {
   font-weight: 600;
   color: #0827F5;
 }
