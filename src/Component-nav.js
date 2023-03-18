@@ -25,8 +25,11 @@ function Componentnav() {
           // }
 
     return (
+
         <>
+        
         <div className="nav-body-div" id="comp-navbar" >
+        
 
                 <Link to="/" className="section-link"  ><p className="nav-links" > # </p></Link>
 
@@ -48,4 +51,4 @@ function Componentnav() {
     )
 }
 
-export default Componentnav
+export default Componentnav;

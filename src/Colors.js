@@ -64,6 +64,16 @@ function Colors() {
               <p>
                 <span className="h1-span">Blue</span> - #0827F5
               </p>
+              <div className="color-grid" id="blue-10" ></div>
+              <div className="color-grid" id="blue-11" ></div>
+              <div className="color-grid" id="blue-12" ></div>
+              <div className="color-grid" id="blue-13" ></div>
+              <div className="color-grid" id="blue-14" ></div>
+              <div className="color-grid" id="blue-15" ></div>
+              <div className="color-grid" id="blue-16" ></div>
+              <div className="color-grid" id="blue-17" ></div>
+              <div className="color-grid" id="blue-18" ></div>
+              <br/>
               <div className="color-grid" id="blue-1" ></div>
               <div className="color-grid" id="blue-2" ></div>
               <div className="color-grid" id="blue-3" ></div>
