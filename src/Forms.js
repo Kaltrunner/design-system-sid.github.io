@@ -42,6 +42,7 @@ function Forms() {
                 type="text"
                 value={name}
                 placeholder="Enter your name..."
+                required
                 onChange={(e) => setName(e.target.value)}
               ></input>
               <br />
@@ -51,6 +52,7 @@ function Forms() {
               <input
                 className="input-text"
                 type="password"
+                autoComplete="off"
                 value={password}
                 placeholder="Enter your password..."
                 onChange={(e) => setPassword(e.target.value)}

@@ -37,10 +37,10 @@ function Colors() {
             </div>
             <p className="hex-text">#ececec</p>
 
-            <div className="outer" id="outer-white">
+            {/* <div className="outer" id="outer-white">
               <div className="inner" id="lt-grey"></div>
             </div>
-            <p className="hex-text">#F5F5F5</p>
+            <p className="hex-text">#F5F5F5</p> */}
           </div>
           <div className="div-line"></div>
 
@@ -89,6 +89,16 @@ function Colors() {
               <p>
                 <span className="h1-span">drk.Grey</span> - #929292
               </p>
+              <div className="color-grid" id="drk-grey-10" ></div>
+              <div className="color-grid" id="drk-grey-11" ></div>
+              <div className="color-grid" id="drk-grey-12" ></div>
+              <div className="color-grid" id="drk-grey-13" ></div>
+              <div className="color-grid" id="drk-grey-14" ></div>
+              <div className="color-grid" id="drk-grey-15" ></div>
+              <div className="color-grid" id="drk-grey-16" ></div>
+              <div className="color-grid" id="drk-grey-17" ></div>
+              <div className="color-grid" id="drk-grey-18" ></div>
+              <br/>
               <div className="color-grid" id="drk-grey-1" ></div>
               <div className="color-grid" id="drk-grey-2" ></div>
               <div className="color-grid" id="drk-grey-3" ></div>
@@ -104,6 +114,16 @@ function Colors() {
               <p>
                 <span className="h1-span">Grey</span> - #ececec
               </p>
+              <div className="color-grid" id="grey-10" ></div>
+              <div className="color-grid" id="grey-11" ></div>
+              <div className="color-grid" id="grey-12" ></div>
+              <div className="color-grid" id="grey-13" ></div>
+              <div className="color-grid" id="grey-14" ></div>
+              <div className="color-grid" id="grey-15" ></div>
+              <div className="color-grid" id="grey-16" ></div>
+              <div className="color-grid" id="grey-17" ></div>
+              <div className="color-grid" id="grey-18" ></div>
+              <br/>
               <div className="color-grid" id="grey-1" ></div>
               <div className="color-grid" id="grey-2" ></div>
               <div className="color-grid" id="grey-3" ></div>
@@ -113,9 +133,10 @@ function Colors() {
               <div className="color-grid" id="grey-7" ></div>
               <div className="color-grid" id="grey-8" ></div>
               <div className="color-grid" id="grey-9" ></div>
+              
             </div>
 
-            <div className="color-grid-div">
+            {/* <div className="color-grid-div">
               <p>
                 <span className="h1-span">lt.Grey</span> - #F5F5F5
               </p>
@@ -130,7 +151,7 @@ function Colors() {
               <div className="color-grid" id="lt-grey-8" ></div>
               <div className="color-grid" id="lt-grey-9" ></div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <Footer /> */}
