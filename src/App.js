@@ -12,6 +12,8 @@ import Components from "./Components";
 import Forms from "./Forms"
 import Typography from "./Typography";
 import ProgressBar from "./ProgressBar";
+import Clock from "./Clock";
+import Fullclock from "./Fullclock";
 
 
 import "./App.css";
@@ -32,6 +34,8 @@ function App() {
       <Route path="/Forms" element={<Forms />} />
       <Route path="/Typography" element={<Typography />} />
       <Route path="/ProgressBar" element={<ProgressBar />} />
+      <Route path="/Clock" element={<Clock />} />
+      <Route path="/Fullclock" element={<Fullclock />} />
     </SlideRoutes>
   );
 }
