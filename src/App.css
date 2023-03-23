@@ -1016,6 +1016,10 @@ html {
   background-color: #F5F5F5;
 }
 
+#form-text {
+  margin-left: .5vw;
+}
+
 .input-text {
   padding-left: 1vw;
 }

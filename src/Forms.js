@@ -36,7 +36,7 @@ function Forms() {
         <div className="form-comp-content">
           <div className="form-container-div">
             <p>
-              <span className="h1-span">Form with</span> - input fields, option select, text area and submit button.
+              <span className="h1-span" id="form-text" >Form with</span> - input fields, option select, text area and submit button.
             </p>
             <form onSubmit={handleSubmit}>
               <input
