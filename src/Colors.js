@@ -12,15 +12,17 @@ function Colors() {
           <div className="div-line"></div>
         </div>
         <div className="comp-content">
+        <div className="palette-div" >
+          <p className="font-card-info-span" >Color Palette: </p>
+          </div>
+       
           <div className="extra-stuff-div">
-            <p className="palette-text">color palette / </p>
-            <br />
-            <br />
+            
 
             <div className="outer">
               <div className="inner"></div>
             </div>
-            <p className="hex-text">#Black</p>
+            <p className="hex-text">#000</p>
 
             <div className="outer">
               <div className="inner" id="blue"></div>

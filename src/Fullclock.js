@@ -26,13 +26,13 @@ function Fullclock() {
   ];
 
   let days = [
-    "Sun",
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
   ];
 
 
@@ -45,7 +45,7 @@ function Fullclock() {
     let s = time.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    return  day + " - " + month + " " + d + " - " +  h + ":" + m + ":" + s ;
+    return  day + ", " + month + " " + d + " - " +  h + ":" + m + ":" + s ;
   }
 
   const checkTime = (i) => {

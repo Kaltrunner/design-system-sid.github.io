@@ -8,13 +8,13 @@ function Images() {
       <Componentnav />
       <div className="colors-body-div">
         <div className="comp-header-div">
-          <h1 className="comp-header-text">Images. / Grids.</h1>
+          <h1 className="comp-header-text">Container Layouts.</h1>
           <div className="div-line"></div>
         </div>
 
         <div className="comp-content">
           <p className="image-container-text">
-            <span className="h1-span">Image Grid</span> - 50%
+            <span className="h1-span">Container Layout</span> - 50%
           </p>
           <div className="images-contaner">
             <div className="image-div-50">
@@ -33,7 +33,7 @@ function Images() {
 
           <>
             <p className="image-container-text">
-              <span className="h1-span">Image Grid</span> - 60% & 40%
+              <span className="h1-span">Container Layout</span> - 60% & 40%
             </p>
             <div className="images-contaner">
               <div className="image-div-60">
@@ -41,7 +41,7 @@ function Images() {
               </div>
               <div className="image-div-40">
                 <img
-                  src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
                   alt=""
                 />
               </div>
@@ -49,7 +49,7 @@ function Images() {
           </>
 
           <p className="image-container-text">
-            <span className="h1-span">Image Grid</span> - 33%
+            <span className="h1-span">Container Layout</span> - 33%
           </p>
           <div className="images-contaner">
             <div className="image-div-33">
@@ -73,7 +73,7 @@ function Images() {
           </div>
 
           <p className="image-container-text">
-            <span className="h1-span">Image Grid</span> - 25%
+            <span className="h1-span">Container Layout</span> - 25%
           </p>
           <div className="images-contaner">
             <div className="image-div-25">
@@ -100,7 +100,7 @@ function Images() {
           </div>
 
           <p className="image-container-text">
-            <span className="h1-span">Image Grid</span> /{" "}
+            <span className="h1-span">Container Layout</span> /{" "}
             <span className="h1-span">With 28px border-radius</span> - 25%
           </p>
           <div className="images-contaner">
@@ -118,7 +118,7 @@ function Images() {
             </div>
             <div className="image-div-25-radius">
               <img
-                src="https://images.unsplash.com/photo-1527409335569-f0e5c91fa707?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                src="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                 alt=""
               />
             </div>
@@ -131,7 +131,7 @@ function Images() {
           </div>
 
           <p className="image-container-text">
-            <span className="h1-span">Image Grid</span> /{" "}
+            <span className="h1-span">Container Layout</span> /{" "}
             <span className="h1-span">Effects</span> - 25%
           </p>
           <div className="images-contaner">

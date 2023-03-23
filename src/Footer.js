@@ -46,7 +46,7 @@ function Footer() {
           
       </div>
       <div className="info-div" >
-        <p>Built & designed by: Erik Russell</p>
+        {/* <p>Built & designed by: Erik Russell</p> */}
     
         <p>© 2023 Erik Russell<br/>all rights resurved.</p>
         </div>

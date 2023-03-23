@@ -13,16 +13,14 @@ function Typography() {
         </div>
         <div className="comp-content">
           <div className="text-info-div">
-            <p className="font-card-info" >Fonts used / <br/> <span className="font-card-info-span" >Noto Sans: </span><span className="font-card-info-letter-span" > Aa Bb Cc </span></p>
-            {/* <div className="font-card" >
-            <p className="font-card-letter" >A</p><p className="font-card-letter-low" >a</p>
+            {/* <p className="font-card-info" >Fonts /</p> */}
+             <p><span className="font-card-info-span" >Font / Noto Sans: </span><br/><span className="font-card-info-letter-span" >AaBbCc</span></p>
+            <div className="abc-div" >
+                <div>
+                <p className="font-card-info-span" >Letters & Numbers: </p>
+                  <p className="abc-text" >Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz<br/>0 1 2 3 4 5 6 7 8 9</p>
+                </div>
             </div>
-            <div className="font-card" >
-            <p className="font-card-letter" >B</p><p className="font-card-letter-low" >b</p>
-            </div>
-            <div className="font-card" >
-            <p className="font-card-letter" >C</p><p className="font-card-letter-low" >c</p>
-            </div> */}
             
           </div>
           <div className="div-line"></div>

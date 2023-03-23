@@ -11,7 +11,7 @@ function Section() {
 
             <Link to="/Components" className="section-link" ><p className="section-list-item" >components<span className="section-link-dot" >.</span></p></Link>
 
-            <Link to="/Images" className="section-link" ><p className="section-list-item" >images<span className="section-link-dot" >.</span> / grids<span className="section-link-dot" >.</span></p></Link>
+            <Link to="/Images" className="section-link" ><p className="section-list-item" >container layouts<span className="section-link-dot" >.</span></p></Link>
 
             {/* <Link to="/Fonts" className="section-link" ><p className="section-list-item" >fonts<span className="section-link-dot" >.</span></p></Link> */}
 

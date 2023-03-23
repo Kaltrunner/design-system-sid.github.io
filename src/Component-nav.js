@@ -37,7 +37,7 @@ function Componentnav() {
 
                 <Link to="/Components" className="section-link"  ><p className="nav-links" id={currentPage === "/Components" ? "on" : ""} >components.</p></Link>
 
-                <Link to="/Images" className="section-link"  ><p className="nav-links" id={currentPage === "/Images" ? "on" : ""} >images. / grids.</p></Link>
+                <Link to="/Images" className="section-link"  ><p className="nav-links" id={currentPage === "/Images" ? "on" : ""} >container layouts.</p></Link>
                 
                 {/* <Link to="/Fonts" className="section-link"  ><p className="nav-links" id={currentPage === "/Fonts" ? "on" : ""} >fonts.</p></Link> */}
 
