@@ -1,6 +1,7 @@
 import { ScrollToTop } from 'react-router-scroll-to-top';
 import Nav from "./Nav";
-import Section from "./Section";
+import Footer from "./Footer";
+// import Section from "./Section";
 
 function Main() {
   return (
@@ -14,7 +15,8 @@ function Main() {
         <h1 className="header-text" id="main-h1" >Sid<span className="main-span" >.</span></h1>
       </div>
     </div>
-    <Section />
+    {/* <Section /> */}
+    <Footer />
     <ScrollToTop />
     </>
   );

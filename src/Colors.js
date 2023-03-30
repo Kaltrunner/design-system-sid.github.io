@@ -22,7 +22,7 @@ function Colors() {
             <div className="outer">
               <div className="inner"></div>
             </div>
-            <p className="hex-text">#000</p>
+            <p className="hex-text">#171717</p>
 
             <div className="outer">
               <div className="inner" id="blue"></div>
@@ -49,7 +49,7 @@ function Colors() {
           <div className="color-grid-container">
             <div className="color-grid-div">
               <p>
-                <span className="h1-span">Black</span> - #000
+                <span className="h1-span">Not Black</span> - #171717
               </p>
               <div className="color-grid" id="black-1" ></div>
               <div className="color-grid" id="black-2" ></div>

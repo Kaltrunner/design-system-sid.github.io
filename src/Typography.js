@@ -14,7 +14,8 @@ function Typography() {
         <div className="comp-content">
           <div className="text-info-div">
             {/* <p className="font-card-info" >Fonts /</p> */}
-             <p><span className="font-card-info-span" >Font / Noto Sans: </span><br/><span className="font-card-info-letter-span" >AaBbCc</span></p>
+            
+             <p><span className="font-card-info-span" >Font / Karla: </span><br/><span className="font-card-info-letter-span" >AaBbCc</span></p>
             <div className="abc-div" >
                 <div>
                 <p className="font-card-info-span" >Letters & Numbers: </p>
@@ -26,14 +27,14 @@ function Typography() {
           <div className="div-line"></div>
           <dev text-body-div>
             <div className="text-div">
-              <p>H1 / <span className="h1-span" >Header</span> - weight 600</p>
+              <p>H1 / <span className="h1-span" >Header</span> - weight 400</p>
               <p className="text-text" id="text-h1">
               Jack og Jill fóru upp hæðina til að sækja vatnsbönn.
               </p>
             </div>
 
             <div className="text-div">
-              <p>H1 / <span className="h1-span" >Logo Header</span> - weight 400</p>
+              <p>H1 / <span className="h1-span" >Logo Header</span> / Font / Fragment Mono - weight 300</p>
               <p className="text-text" id="text-h2">
               Jack og Jill fóru upp hæðina til að sækja vatnsbönn.
               </p>
@@ -61,7 +62,7 @@ function Typography() {
             </div> */}
 
             <div className="text-div">
-              <p>H6 / <span className="h1-span" >Title Text</span> - weight 600</p>
+              <p>H6 / <span className="h1-span" >Title Text</span> - weight 200</p>
               <p className="text-div" id="text-h6">
               Jack og Jill fóru upp hæðina til að sækja vatnsbönn.
               </p>
