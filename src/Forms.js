@@ -30,13 +30,15 @@ function Forms() {
       <div className="colors-body-div">
         <div className="comp-header-div">
           <h1 className="comp-header-text">Forms.</h1>
-          <div className="div-line"></div>
         </div>
 
         <div className="form-comp-content">
           <div className="form-container-div">
             <p>
-              <span className="h1-span" id="form-text" >Form with</span> - input fields, option select, text area and submit button.
+              <span className="h1-span" id="form-text">
+                Form with
+              </span>{" "}
+              - input fields, option select, text area and submit button.
             </p>
             <form onSubmit={handleSubmit}>
               <input
@@ -115,10 +117,9 @@ function Forms() {
             <input className="submit-btn" type="submit"></input>
           </form> */}
         </div>
-
+        <Footer />
         <ScrollToTop />
       </div>
-      <Footer />
     </>
   );
 }

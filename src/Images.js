@@ -8,8 +8,7 @@ function Images() {
       <Componentnav />
       <div className="colors-body-div">
         <div className="comp-header-div">
-          <h1 className="comp-header-text">Container Layouts.</h1>
-          <div className="div-line"></div>
+          <h1 className="comp-header-text">Layouts.</h1>
         </div>
 
         <div className="comp-content">
@@ -37,7 +36,10 @@ function Images() {
             </p>
             <div className="images-contaner">
               <div className="image-div-60">
-                <img src="https://images.unsplash.com/photo-1487284122274-e864e9dec2bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80" alt="" />
+                <img
+                  src="https://images.unsplash.com/photo-1487284122274-e864e9dec2bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80"
+                  alt=""
+                />
               </div>
               <div className="image-div-40">
                 <img
@@ -89,7 +91,10 @@ function Images() {
               />
             </div>
             <div className="image-div-25">
-              <img src="https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="" />
+              <img
+                src="https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                alt=""
+              />
             </div>
             <div className="image-div-25">
               <img
@@ -147,14 +152,15 @@ function Images() {
               </p>
             </div>
             <div className="image-div-25" id="image-radius-box-shadow">
-              <p className="image-inside-text">border-radius 28px / box-shadow</p>
+              <p className="image-inside-text">
+                border-radius 28px / box-shadow
+              </p>
             </div>
           </div>
         </div>
-
+        <Footer />
         <ScrollToTop />
       </div>
-      <Footer />
     </>
   );
 }

@@ -9,21 +9,6 @@ function Nav() {
             setCurrentPage(window.location.pathname);
           }, []);
 
-          // window.onscroll = function () {
-          //   scrollFunction();
-          // };
-          
-          // function scrollFunction() {
-          //   if (
-          //     document.body.scrollTop > 600 ||
-          //     document.documentElement.scrollTop > 600
-          //   ) {
-          //     document.getElementById("navbar").style.top = "-115px";
-          //   } else {
-          //     document.getElementById("navbar").style.top = "0";
-          //   }
-          // }
-
     return (
         <div className="nav-body-div" id="navbar" >
 
@@ -31,13 +16,11 @@ function Nav() {
 
                 <Link to="/Components" className="section-link"  ><p className="nav-links" id={currentPage === "/Components" ? "on" : ""} >Components</p></Link>
 
-                <Link to="/Images" className="section-link"  ><p className="nav-links" id={currentPage === "/Images" ? "on" : ""} >Container layouts</p></Link>
-
-                {/* <Link to="/Fonts" className="section-link"  ><p className="nav-links" id={currentPage === "/Fonts" ? "on" : ""} >fonts.</p></Link> */}
+                <Link to="/Images" className="section-link"  ><p className="nav-links" id={currentPage === "/Images" ? "on" : ""} >Layouts</p></Link>
 
                 <Link to="/Forms" className="section-link"  ><p className="nav-links" id={currentPage === "/Forms" ? "on" : ""} >Forms</p></Link>
 
-                <Link to="/Typography" className="section-link"  ><p className="nav-links" id={currentPage === "/Typography" ? "on" : ""}  >Typography</p></Link>
+                <Link to="/Typography" className="section-link"  ><p className="nav-links right-side" id={currentPage === "/Typography" ? "on" : ""}  >Typography</p></Link>
 
         </div>
     )

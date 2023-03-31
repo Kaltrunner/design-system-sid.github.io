@@ -11,7 +11,6 @@ function Components() {
       <div className="colors-body-div">
         <div className="comp-header-div">
           <h1 className="comp-header-text">Components.</h1>
-          <div className="div-line"></div>
         </div>
 
         <div className="comp-content">
@@ -49,13 +48,17 @@ function Components() {
           </div>
 
           <div className="comp-button-div">
-            <p><span className="h1-span">Clock</span> - with full date & time</p>
-                <Fullclock />
+            <p>
+              <span className="h1-span">Clock</span> - with full date & time
+            </p>
+            <Fullclock />
           </div>
 
           <div className="comp-button-div">
-            <p><span className="h1-span">Clock</span> - date & year</p>
-                <Clock />
+            <p>
+              <span className="h1-span">Clock</span> - date & year
+            </p>
+            <Clock />
           </div>
 
           <div className="comp-button-div" id="comp-needsmore-room-div">
@@ -67,11 +70,10 @@ function Components() {
             </label>
           </div>
 
-          <div className="comp-button-div" >
+          <div className="comp-button-div">
             <p className="h1-span">Toggle</p>
 
             <input className="toggle" id="round-toggle" type="checkbox" />
-
           </div>
 
           <div className="comp-button-div">
@@ -89,10 +91,9 @@ function Components() {
             </div>
           </div>
         </div>
-
+        <Footer />
         <ScrollToTop />
       </div>
-      <Footer />
     </>
   );
 }
