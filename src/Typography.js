@@ -12,8 +12,6 @@ function Typography() {
         </div>
         <div className="comp-content">
           <div className="text-info-div">
-            {/* <p className="font-card-info" >Fonts /</p> */}
-
             <p>
               <span className="font-card-info-span">Font / Karla: </span>
               <br />
@@ -34,7 +32,7 @@ function Typography() {
           <dev text-body-div>
             <div className="text-div">
               <p>
-                H1 / <span className="h1-span">Header</span> - weight 400
+                H1 / <span className="h1-span">Header</span> - weight 300
               </p>
               <p className="text-text" id="text-h1">
                 Jack og Jill fóru upp hæðina til að sækja vatnsbönn.
@@ -51,13 +49,6 @@ function Typography() {
               </p>
             </div>
 
-            {/* <div className="text-div">
-              <p>H3 - weight 400</p>
-              <p className="text-text" id="text-h3">
-              Jack og Jill fóru upp hæðina til að sækja vatnsbönn.
-              </p>
-            </div> */}
-
             <div className="text-div">
               <p>
                 H4 / <span className="h1-span">Sub-Header</span> - weight 400
@@ -67,16 +58,9 @@ function Typography() {
               </p>
             </div>
 
-            {/* <div className="text-div">
-              <p>H5 - weight 400</p>
-              <p className="text-div" id="text-h5">
-              Jack og Jill fóru upp hæðina til að sækja vatnsbönn.
-              </p>
-            </div> */}
-
             <div className="text-div">
               <p>
-                H6 / <span className="h1-span">Title Text</span> - weight 200
+                H6 / <span className="h1-span">Title Text</span> - weight 300
               </p>
               <p className="text-div" id="text-h6">
                 Jack og Jill fóru upp hæðina til að sækja vatnsbönn.
