@@ -17,7 +17,7 @@ function Componentnav() {
           </Link>
         </div>
 
-        <div classNAme="link-div">
+        <div className="link-div">
           <Link to="/Colors" className="section-link">
             <p className="nav-links" id={currentPage === "/Colors" ? "on" : ""}>
               Colors

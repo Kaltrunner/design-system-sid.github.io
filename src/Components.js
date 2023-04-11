@@ -33,15 +33,15 @@ function Components() {
           <div className="comp-button-div">
             <p className="h1-span">Search bar</p>
 
-            <div class="comp-wrap">
-              <div class="comp-search">
+            <div className="comp-wrap">
+              <div className="comp-search">
                 <input
                   type="text"
-                  class="searchTerm"
+                  className="searchTerm"
                   placeholder="Type to search"
                 />
-                <button type="submit" class="searchButton">
-                  <p class="fa-fa-search">search</p>
+                <button type="submit" className="searchButton">
+                  <p className="fa-fa-search">search</p>
                 </button>
               </div>
             </div>
@@ -64,9 +64,9 @@ function Components() {
           <div className="comp-button-div" id="comp-needsmore-room-div">
             <p className="h1-span">Checkbox</p>
 
-            <label class="check-container">
+            <label className="check-container">
               <input type="checkbox" />
-              <span class="checkmark"></span>
+              <span className="checkmark"></span>
             </label>
           </div>
 
@@ -79,9 +79,9 @@ function Components() {
           <div className="comp-button-div">
             <p className="h1-span">Dropdown Menu</p>
             <div className="dropdown-div">
-              <div class="dropdown">
-                <button class="dropbtn">Dropdown</button>
-                <div class="dropdown-content">
+              <div className="dropdown">
+                <button className="dropbtn">Dropdown</button>
+                <div className="dropdown-content">
                   <p>Lorem Ipsum</p>
                   <p>Lorem Ipsum</p>
                   <p>Lorem Ipsum</p>
