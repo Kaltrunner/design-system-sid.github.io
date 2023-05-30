@@ -105,15 +105,16 @@ html {
 
 .Main-body-div {
     margin-top: 14vw;
-    height: 46vw;
+    height: 75vh;
     background-color: #171717;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 .h1-div {
     margin-left: 5vw;
-    margin-bottom: 10vh;
+    /* margin-top: 10vh;
+    margin-bottom: 10vh; */
     cursor: default;
 }
 
@@ -148,70 +149,22 @@ html {
 
   #main-h1 {
     margin-left: 1vw;
-  }
-
-  /* Section Styles */
-
-  /* .section-body-div {
-    width: 100%;
-    height: 90vh;
-    background-color: #171717;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .section-list {
-    margin: 0 5rem;
-    color: #ececec;
-    font-size: 56px;
-    text-decoration: none;
     padding: 0;
-  }
-
-  .section-list-item {
-    font-size: 5vw;
-    font-weight: 200;
-    text-decoration: none;
-    padding: 2rem 0;
     margin: 0;
-    transition: all .25s linear;
-    color: #ececec;
-  }
-  .section-list-item:hover {
-    color: #ececec;
-    transition: all .25s linear;
-    cursor: pointer;
-  }
-  
-  .section-link {
-    text-decoration: none;
-  }
-  .section-link-dot {
-    color: #0827F5;
   }
 
-  .section-list-item  {
-    color: #ececec;
-    transition: all .25s linear;
-  }
-  .section-list-item:hover {
-    color: #0827F5;
-    transition: all .25s linear;
-  }
-  .section-list-item a:active {
-    color: #929292;
-  } */
 
   /* Footer Styles */
 
   .footer-body-div {
     width: 100%;
-    height: 8vh;
+    height: 5rem;
     background-color: #ececec;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* position: absolute; */
+    bottom: 0;
   }
 
   .footer-text {
@@ -1341,19 +1294,19 @@ html {
 };
 
 @media only screen and (max-width: 300px) {
-  .main-body-div {
+  .Main-body-div {
     padding: 0;
+    height: auto;
   }
   .h1-div {
-    height: 100vh;
     margin: 0;
-  }
-
-  .header-text {
-    line-height: 0;
   }
   .header-text  {
     line-height: 0;
     letter-spacing: -.25vw;
+    line-height: 12vh;
+  }
+  .footer-body-div {
+    position: absolute;
   }
 }
