@@ -1,6 +1,6 @@
-function Footer() {
+function Compfooter() {
   return (
-    <div className="footer-body-div">
+    <div className="comp-footer-body-div">
       <>
         <p className="footer-text">
           Designed and developed by {"  "}
@@ -23,4 +23,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Compfooter;

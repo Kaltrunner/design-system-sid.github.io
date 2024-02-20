@@ -1,5 +1,5 @@
 import Componentnav from "./Component-nav";
-import Footer from "./Footer";
+import Compfooter from "./Comp-footer";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Colors() {
@@ -130,7 +130,7 @@ function Colors() {
             </div>
           </div>
         </div>
-        <Footer />
+        <Compfooter />
         <ScrollToTop />
       </div>
     </>

@@ -1,5 +1,5 @@
 import Componentnav from "./Component-nav";
-import Footer from "./Footer";
+import Compfooter from "./Comp-footer";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Typography() {
@@ -133,7 +133,7 @@ function Typography() {
             </div>
           </dev>
         </div>
-        <Footer />
+        <Compfooter />
         <ScrollToTop />
       </div>
     </>

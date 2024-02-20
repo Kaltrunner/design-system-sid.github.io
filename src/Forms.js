@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Componentnav from "./Component-nav";
-import Footer from "./Footer";
+import Compfooter from "./Comp-footer";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Forms() {
@@ -115,7 +115,7 @@ function Forms() {
             <input className="submit-btn" type="submit"></input>
           </form> */}
         </div>
-        <Footer />
+        <Compfooter />
         <ScrollToTop />
       </div>
     </>

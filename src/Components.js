@@ -1,5 +1,5 @@
 import Componentnav from "./Component-nav";
-import Footer from "./Footer";
+import Compfooter from "./Comp-footer";
 import Clock from "./Clock";
 import Fullclock from "./Fullclock";
 import { ScrollToTop } from "react-router-scroll-to-top";
@@ -91,7 +91,7 @@ function Components() {
             </div>
           </div>
         </div>
-        <Footer />
+        <Compfooter />
         <ScrollToTop />
       </div>
     </>

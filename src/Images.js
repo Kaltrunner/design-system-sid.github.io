@@ -1,5 +1,5 @@
 import Componentnav from "./Component-nav";
-import Footer from "./Footer";
+import Compfooter from "./Comp-footer";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Images() {
@@ -158,7 +158,7 @@ function Images() {
             </div>
           </div>
         </div>
-        <Footer />
+        <Compfooter />
         <ScrollToTop />
       </div>
     </>
